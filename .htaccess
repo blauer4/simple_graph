@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^/?(.*)$ /$1.php [L]

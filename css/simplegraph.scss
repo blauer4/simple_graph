@@ -1,0 +1,17 @@
+$primary: #2d2d2d;
+$secondary: #b8b9b9;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap-grid";
+
+.modal-header{
+  border: none;
+}
+.modal-footer{
+  border: none;
+}
+@include media-breakpoint-up(sm){
+  .m-49{
+    margin-top: 49px;
+  }
+}
