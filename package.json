@@ -2,7 +2,7 @@
   "name": "simple_graph",
   "version": "1.0.0",
   "dependencies": {
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "bootstrap": "^4.4.1"
   }
 }
