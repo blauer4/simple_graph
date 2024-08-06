@@ -1,4 +1,6 @@
 # Simple graph
+
+**This Repository was archived because the original platform has changed**
 An easy way to see your average score on the DoExercise platform
 
 This site has been made with a little php script I wrote that fetches information about your exercises from the
